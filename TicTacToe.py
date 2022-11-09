@@ -2,7 +2,7 @@ from IPython.display import clear_output
 import random
 
 def display_board(board):
-    clear_output()  # this only works in jupyter!
+    clear_output()  # this only works in jupyter
     
     backround = "   |   |"
     print(backround)
